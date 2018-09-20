@@ -3,7 +3,9 @@ export PATH=$PATH:/usr/local/mysql/bin
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+
 source ~/.profile
+source ~/.bash_aliases
 
 # Git branch in prompt.
 parse_git_branch() {

@@ -7,3 +7,4 @@ alias gohome='popd && pushd .'
 alias batt='pmset -g batt'
 
 alias ls='ls -G'
+alias notify='~/display_notification.sh'

@@ -34,7 +34,9 @@ taskd.key=\/home\/eduardo\/.task\/Eduardo.key.pem
 taskd.ca=\/home\/eduardo\/.task\/ca.cert.pem
 taskd.server=manhattan.eduardofares.com:53589
 taskd.credentials=Personal\/Eduardo\/0c2466fb-8877-4930-884b-d39720038718
+# Estimate UDA
 uda.estimate.type=numeric
 uda.estimate.label=Est
 report.list.labels=ID,Active,D,P,Description,Est,Project,Tags,R,Sch,Due,Until,Urg
 report.list.columns=id,start.age,depends.indicator,priority,description.count,estimate,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,urgency
+default.command=list

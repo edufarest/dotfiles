@@ -37,8 +37,8 @@ taskd.credentials=Personal\/Eduardo\/0c2466fb-8877-4930-884b-d39720038718
 # Estimate UDA
 uda.estimate.type=numeric
 uda.estimate.label=Est
-report.list.labels=ID,Active,D,P,Description,Est,Project,Tags,R,Sch,Due,Until,Urg
-report.list.columns=id,start.age,depends.indicator,priority,description.count,estimate,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,urgency
+report.list.labels=ID,Active,D,P,Description,Est,Project,Tags,R,Sch,Due,Until,Urg,Completion
+report.list.columns=id,start.age,depends.indicator,priority,description.count,estimate,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,urgency,comp
 default.command=list
 uda.reviewed.type=date
 uda.reviewed.label=Reviewed
@@ -49,3 +49,6 @@ report._reviewed.filter=( reviewed.none: or reviewed.before:now-6days ) and ( +P
 
 # Tasktime
 journal.time=on
+uda.comp.type=numeric
+uda.comp.label=Completion
+uda.comp.default=0

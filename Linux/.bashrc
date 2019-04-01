@@ -137,3 +137,6 @@ parse_git_branch() {
      
 export PS1="\[\033[36m\]\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
      
+
+# added by travis gem
+[ -f /home/eduardo/.travis/travis.sh ] && source /home/eduardo/.travis/travis.sh
